@@ -394,6 +394,7 @@ color: #000000;
     top: 233px;
     
 }
+ 
 .blognews h1{
     align-items: center;
     position: absolute;
@@ -418,4 +419,101 @@ left: 57px;
 top: 1557px;
 border-radius: 10px;
 }
+.view2 img{
+    position: absolute;
+    width: 263px;
+    height: 201px;
+    left: 766px;
+    top: 2433px;   
+}
+.blognews a{
+position: absolute;
+width: 126.86px;
+height: 30px;
+left: 1046px;
+top: 2559px;
+font-family: Roboto;
+font-size: 20px;
+line-height: 150%;
+color: #000000;
+opacity: 0.8;
+text-decoration: none;
+}
+.view3{
+    position: absolute;
+width: 262px;
+height: 201px;
+left: 770px;
+top: 2664px;
+border-radius: 10px;
+}
+.view4{
+position: absolute;
+width: 262px;
+height: 201px;
+left: 774px;
+top:2895px;
+border-radius: 10px;
+}
+.footer{
+display: flex;
+position: absolute;
+width: 100%;
+height: 348px;
+left: 0px;
+top: 3197px;
+background: rgba(38, 148, 153, 0.04);
+ margin-top: 20px;
+}
+.traveland{
+margin-left: 206px;  
+    width: 190px;
+    border: 1px solid white;
+    
+}
+.fa-instagram-square{
+    color: #C44089;
+    border-radius: 2px;
+}
+.services a{
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 100px;
+    }
+ .legal a{
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 100px;
+ }
+ .subscribe{
+   margin-left: 100px;  
+ }
+ .submit{
+    width: 103px;
+height: 44px;
+background: #C9453B;
+color: #FFFFFF;
+border-radius: 5px;
+border: gray;
+
+ }
+ .email{
+    width: 195px;
+    height: 44px;
+    border-radius: 5px;
+    margin-right: 20px;
+    
+ 
+    border: 1px solid gray;
+     
+     
+    
+ }
+
  
