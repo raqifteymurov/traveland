@@ -1,519 +1,274 @@
-.header{
-    height: 800px;
-    width:100%;
-    background-image: url(/images/Rectangle\ 31.png);   
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% 100%;
-    display: flex;
-     
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.banner p{
-    position: absolute;
-    width: 124px;
-    height: 36px;
-    left: 100px;
-    top: 42px;
-    color:#FFFFFF ;
+.navbar-brand{
     font-family: Ribeye;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 150%;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 }
-.nav a{
-    position: relative;  
-    margin: 28px;
-    top: 25px;
-    left: 520px;
-    text-decoration: none;
-    font-family: Roboto;
-    color: #FFFFFF;
-    display: block;
-     line-height: 27px;
-     font-size: 22px;
-     z-index: 0;
+.backimage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/Rectangle\ 31.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:768px) {
+   .backimage{  
+       background-size: cover; 
+       height: 40vh;          
+   }
+   
+   .booking{
+       margin-left: -10px;
+   }
+   .navbar-nav li{
+    line-height: 8px;
+}
+ .middlepart h1{
+font-size: 20px;
+ }
+ .middlepart p{
+     font-size: 9px;
+line-height: 8px;
+font-weight: bold;
+margin-top: 4px;
+ }
+}
+
+@media (max-width:1200px) {
+    .statueofliberty p{
+        font-size: 18px;
+    }
 }
 .booking a{
-    width: 163px;
-height: 51px;
-text-align: center;
-border-radius: 10px;
-    box-sizing: border-box;
-   position: absolute;
-   border: 1px solid #C9453B;
-    top: 40px;
-    right: 100px;
-    display: block;
-     color: #FFFFFF;
-     text-decoration: none;
-     padding: 12px; 
-     background-color:#C9453B ;
-    justify-content: space-between;
+    border: 1px solid#C9453B ;
+    display: inline-block;
+    width: 153px;
+    height: 41px;
+    text-align: center;
+    background-color: #C9453B ;    
+    border-radius: 10px; 
+    text-decoration: none;
+    color: wheat;
+    padding: 5px;
 }
-.booking a:hover{
-    color: white;
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
-.middlepart h1{
-position: absolute;
-width: 804px;
-height: 154px;
-left:100px;
-top: 286px;
-z-index: 1;
-color: #FFFFFF;
-font-family: Gelasio;
+.realtrips h1{
+    font-size: 65px;
+    font-family: Gelasio;
 font-style: normal;
 font-weight: bold;
 font-size: 65px;
+line-height: 120%;
+color: #FFFFFF;
 }
-.middlepart1 p{
-    position: absolute;
-width: 458px;
-height: 87px;
-left: 105px;
-top: 470px;
+.realtrips1 {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 19px;
 line-height: 160%;
 color: #FFFFFF;
 opacity: 0.6;
+margin-top: 10px;
+}
+.explore{
+    border: 1px solid#C9453B ;
+    background-color: #C9453B ;    
+    border-radius: 10px; 
+    margin-top: 10px;  
+   width: fit-content;
+   padding: 0.5rem;  
 }
 .explore a{
-position: absolute;
-width: 160px;
-height: 55px;
-left: 107px;
-top: 615px;
-text-decoration: none;
-font-family: Roboto;
-display: inline-block;
-font-size: 16px;
-line-height:  200%;
-padding: 10px;
-border: 1px solid #C9453B;
-background-color: #C9453B;
-color: #FFFFFF;
-text-align: center;
-border-radius: 10px;
+ text-align: center;
+ text-decoration: none;
+color: wheat;
 }
 .poplocation h1{
-position: absolute;
-width: 346px;
-height: 80px;
-right:500px;
-top: 920px;
-font-family: Gelasio;
-font-weight: 500;
-font-size: 43px;
-line-height: 140%;
-color: #000000;
-
-}
-.poplocation p{
-position: absolute;
-width: 735px; 
-height: 58px;
-top: 1020px;
-left: 290px;
-font-family: Roboto;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-color: #000000;
-opacity: 0.6;
-}
-.images1{
- position: absolute;
-width: 360px;
-height: 331px;
-left: 230px;
-top: 1128px;
-background: url(/images/image\ 45.png);
-border-radius: 10px 10px 0px 0px;
-display: flex;
-}
-.images1 h3{
-position: absolute;
-width: 186px;
-height: 36px;
-left: 90px;
-top: 344px;
 font-family: Gelasio;
 font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-text-align: center;
-color: #000000;
-}
-.images1 p{
-position: absolute;
-width: 306px;
-height: 55px;
-left: 30px;
-top: 390px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-color: #000000;
-opacity: 0.6;
-}
-.images2{
-    position: absolute;
-width: 360px;
-height: 331px;
-left: 621px;
-top: 1130px;
-background: url(images/image\ 48.png);
-border-radius: 10px 10px 0px 0px;
-}
-.images2 h1{
-    position: absolute;
-width: 275px;
-height: 36px;
-left: 46px;
-top: 340px;
-font-family: Gelasio;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-text-align: center;
-color: #000000;
-}
-.images2 p{
- position: absolute;
-width: 289px;
-height: 55px;
-left: 37px;
-top: 386px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-color: #000000;
-opacity: 0.6;
-}
-.images3{
-    position: absolute;
-    width: 360px;
-    height: 331px;
-    left: 1010px;
-    top: 1130px; 
-    background: url(/images/image\ 47.png);
-    border-radius: 10px 10px 0px 0px;
-}
-.images{
-  position: absolute;
-  top: 0;
-   left:-112px;
-     
-}
-.images3 h1{
-position: absolute;
-width: 215px;
-height: 36px;
-left: 88px;
-top: 337px;
-font-family: Gelasio;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-color: #000000;
-}
-.images3 p{
-position: absolute;
-width: 334px;
-height: 55px;
-left: 21px;
-top: 385px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-color:  #000000;
-opacity: 0.6;
-}
-.specialoffer h1{
-position: absolute;
-width: 278px;
-height: 60px;
-left: 572px;
-top: 1648px;
-font-family: Gelasio;
-font-style: normal;
-font-weight: 500;
+font-weight:bold;
 font-size: 43px;
 line-height: 140%;
 color: #000000;
 }
-.specialoffer p{
-position: absolute;
-width: 656px;
-height: 58px;
-left: 375px;
-top: 1728px;
-font-family: Roboto;
+.poplocation{
+    margin-top: 80px;
+    text-align: center;   
+}
+.poplocation .image1 img{
+width: 100%;
+}
+.offers{
+    margin-top: 80px;
+    text-align: center;
+
+}
+.offers h1{
+    font-family: Gelasio;
 font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-color: #000000;
-opacity: 0.6;
-}
-.gallery{
-    display: flex;   
-}
-.statue{
- position: absolute;
-width: 262px;
-height: 173px;
-left: 105px;
-top: 1846px;
-
-background: url(/images/usa-best-places-new-york\ 1.png);
-border-radius: 10px;
-}
-
-.statue h1{
-position: absolute;
-width: 194px;
-height: 36px;
-left: -1px;
-top: 189px;
-font-family: Gelasio;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
+font-weight:bold;
+font-size: 43px;
+line-height: 140%;
 color: #000000;
 }
-.location img{
-position: absolute;
-width: 17px;
+.offers p{
+    text-align: justify;
+    text-align: center; 
+}
+.imagelocation img{
+    width: 17px;
 height: 14px; 
-top: 240px;
 }
 .star img{
-position: absolute;
 width: 24px;
 height: 22px;
-left: 138px;
-top: 235px;
 }
-.greatwall{
-position: absolute;
-width: 262px;
-height: 173px;
-left: 400px;
-top: 1847px;
-    background: url(/images/china-great-wall-and-mountain\ 1.png);
-    border-radius: 10px;
+.image2 img{
+    width: 100%;
 }
-.greatwall h1{
-position: absolute;
-width: 270px;
-height: 36px;
-left: 0;
-top: 189px;
-font-size: 24px;
-line-height: 150%;
-font-family: Gelasio;
-font-style: normal;
+.offerviews{
+     overflow: hidden;
+     
 }
-.star1 img{
-position: absolute;
-width: 24px;
-height: 22px;
-left: 130px;
-top: 235px;
+.daysnights{
+    font-size: 16px;
+    opacity: 0.6;
 }
-.dizin{
-position: absolute;
-width: 262px;
-height: 173px;
-left: 692px;
-top: 1848px;
-background: url(/images/Discover-sajek-valley\ 2.png);
+.box4 .image2{
 border-radius: 10px;
 }
-.dizin h1{
-position: absolute;
-width: 163px;
-height: 36px;
-top: 185px;
-font-family: Gelasio;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-color: #000000;
-}
-.star2 img{
-    position: absolute;
-width: 24px;
-height: 24px;
-left: 122.86px;
-top: 233px;
-}
-.sajekvalley{
-    position: absolute;
-    width: 262px;
-    height: 173px;
-    left:   985px;
-    top: 1849px; 
-    background: url(/images/Discover-sajek-valley\ 1.png);
-    border-radius: 10px;  
-}
-.sajekvalley h1{
-    position: absolute;
-width: 163px;
-height: 36px;
-top: 185px;
-font-family: Gelasio;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-color: #000000;
-}
-.star3 img{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 147.86px;
-    top: 233px;
-    
-}
- 
-.blognews h1{
-    align-items: center;
-    position: absolute;
-    top: 2267px;
-    left: 500px;
-}
-.blognews p{   
-    position: relative;
+ .blognews{
+     margin-top: 80px;
     text-align: center;
-    top: 1530px;
-    font-size: 18px;
-line-height: 160%;
-font-family: Roboto;
-opacity: 0.5;
+    margin-bottom: 50px;
+ }
+ .blgviewsleft p,.blgviewsright p{
+     opacity: 0.6;
+ }
+.blgviewsleft a,.blgviewsright a,.services a,.legal a{
+    text-decoration: none;
+    color: #000000;
 }
-
-.view1 img{
-position: relative;
-width: 554px;
-height: 397px;
-left: 57px;
-top: 1557px;
-border-radius: 10px;
+.direction-column {
+    flex-direction: column !important;
 }
-.view2 img{
-    position: absolute;
-    width: 263px;
-    height: 201px;
-    left: 766px;
-    top: 2433px;   
+.blgimage img,blgimage1 img{
+    width: 100%;
 }
-.blognews a{
-position: absolute;
-width: 126.86px;
-height: 30px;
-left: 1046px;
-top: 2559px;
-font-family: Roboto;
-font-size: 20px;
-line-height: 150%;
-color: #000000;
-opacity: 0.8;
-text-decoration: none;
+@media (max-width:992px) {
+    .blgviewsleft{
+        margin-bottom:  20px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    .blgviewsright{
+        display: flex;
+    }
+    .direction-column h4{
+        font-size: 20px;
+    }
+  
 }
-.view3{
-    position: absolute;
-width: 262px;
-height: 201px;
-left: 770px;
-top: 2664px;
-border-radius: 10px;
-}
-.view4{
-position: absolute;
-width: 262px;
-height: 201px;
-left: 774px;
-top:2895px;
-border-radius: 10px;
+@media (max-width:768px) {
+    .blgviewsright{
+        display: flex;
+        flex-direction: column;
+    }
+    .column{
+        display: flex;
+        flex-direction: row;
+        width: 100%;        
+    }
 }
 .footer{
-display: flex;
-position: absolute;
-width: 100%;
-height: 348px;
-left: 0px;
-top: 3197px;
-background: rgba(38, 148, 153, 0.04);
- margin-top: 20px;
+    margin-top: 150px;
 }
-.traveland{
-margin-left: 206px;  
-    width: 190px;
-    border: 1px solid white;
-    
+.footer1 a{
+color: #000000;
+text-decoration: none;
 }
-.fa-instagram-square{
-    color: #C44089;
-    border-radius: 2px;
+.services a,.legal a{
+    line-height: 38px;
 }
-.services a{
-    display: flex;
-    flex-direction: column;
-    line-height: 45px;
-    text-decoration: none;
-    color: #000000;
-    margin-left: 100px;
-    }
- .legal a{
-    display: flex;
-    flex-direction: column;
-    line-height: 45px;
-    text-decoration: none;
-    color: #000000;
-    margin-left: 100px;
- }
- .subscribe{
-   margin-left: 100px;  
- }
- .submit{
-    width: 103px;
+  
+ .footer-form .email{
+width: 195px;
 height: 44px;
-background: #C9453B;
-color: #FFFFFF;
-border-radius: 5px;
-border: gray;
+box-sizing: border-box;
+ border-radius: 5px;
+border: 1px solid  gray;
+ 
 
  }
- .email{
-    width: 195px;
+ .footer a{
+     font-weight: bold;
+ }
+ .footer-form .submit{
+    width: 83px;
     height: 44px;
+    background-color: #C9453B;
+    color: wheat;
+    border: 1px solid #C9453B;
     border-radius: 5px;
-    margin-right: 20px;
-    
- 
-    border: 1px solid gray;
-     
-     
     
  }
+ @media (max-width:992px) {
+     .subscribe{
+         margin-top: 20px;
+    }   
+ }
+ @media (max-width:768px) {
+     .services,.legal{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 30px;
+         margin-bottom: 10px;
+         
+     }
+      .legal a{
+font-size: 14px;
+      }
+      .services a{
+        font-size: 14px;
+
+      }
+    
+     .footer1 a{
+         width: 75%;
+     }
+ }
+ @media (max-width:1200px) {
+     .footer-form .email{
+         width:150px ;
+     }
+ }
+ 
+ 
+ 
+
+
+
 
  
+
+
+
+
