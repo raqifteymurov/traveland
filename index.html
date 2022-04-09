@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="/css/all.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  // Add the new slick-theme.css if you want the default styling
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 </head>
 
 
@@ -277,7 +277,7 @@
         <p style="font-size: 18px;">$450/person</p>
       </div>
     </div>
-    
+
 
   </div>
 
@@ -349,12 +349,14 @@
           <h1>Traveland</h1>
           <div class="mt-4"> <a href="#">Contact us</a></div>
           <div class="mt-2"><a href="#">@shovasatkhira88.com</a></div>
-          <div class="footer-social d-flex justify-content-between mt-2 w-75">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i> </a>
-            <a href="#"><i class="fab fa-google"></i></a>
+
+          <div class="footer-social d-flex justify-content-between mt-4 w-75">
+            <a href="#"><i class="fab fa-facebook-square icon"></i></a>
+            <a href="#"><i class="fab fa-instagram-square icon"></i></a>
+            <a href="#"><i class="fab fa-twitter-square icon"></i> </a>
+            <a href="#"><i class="fab fa-google icon"></i></a>
           </div>
+
         </div>
 
 
@@ -372,7 +374,37 @@
           <div> <a href="#">Privacy and Policy</a></div>
           <div> <a href="#">Terms of use</a></div>
         </div>
+<style>
+.icon{
+  display: inline-block;
+  
+  animation: float 5s ease-in-out infinite;
+}
+.fa-instagram-square{
+  animation-delay: 1s;
+}
+.fa-twitter-square{
+  animation-delay: 2s;
 
+}
+.fa-google-square{
+  animation-delay: 3s;
+}
+@keyframes float {
+  0%{
+    transform: translateY(0);
+
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+</style>
 
         <div class="subscribe col-12 col-lg-3 col-md-4">
           <h3>Subscribe now</h3>
@@ -399,19 +431,19 @@
   <br><br><br>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="/Js/script.js">
-     
-    </script>
+  <script type="text/javascript" src="/Js/script.js">
 
-   
-    
+  </script>
+
+
+
 </body>
 
 </html>
